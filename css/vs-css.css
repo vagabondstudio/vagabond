@@ -1,0 +1,288 @@
+/**************BASE STYLES*************/
+body {
+font-family: 'Rokkitt',serif;
+background-color: black;
+
+}
+
+#home #about #contact {
+height: 800px;
+}
+#work {
+  height: 1600px;
+}
+
+/************GRID*************/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/************HEADER************/
+header {
+  height: 900px;
+  background: url("../img/5.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  text-align: center;
+  padding-top: 350px;
+  font-size: 120px;
+  clear: both;
+  margin: 0 0;
+  padding-bottom: 105px;
+}
+nav {
+    text-decoration: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+}
+
+#navbar li {
+display: inline;
+list-style-type: none;
+padding-top: 0px;
+font-family: 'Amatic SC', cursive;
+font-size: 24pt;
+text-decoration: none;
+color: white;
+}
+
+#navbar nav ul {
+  font-family: 'Megrim', cursive;
+  font-weight: bold;
+  font-size: 24pt;
+  display: inline;
+  padding-left: 900px;
+}
+
+#navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: #c3f7c0;
+}
+#navbar a:hover {color: #2a4522;}
+
+#social-media ul {
+  list-style: none;
+  padding-left: 500px;
+  padding-top: 0px;
+}
+#social-media ul li {
+  display: inline-block;
+}
+#social-media ul img {
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#contactme, #social-media img:hover {border: 1px solid transparent;}
+
+#workfoliotwo img:hover {border: 1px solid transparent;}
+
+h2 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 40px;
+  color: #2a4522;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 0;
+  margin: 0 0;
+}
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #c3f7c0;
+  padding: 0;
+  margin: 0 0;
+}
+#contactme a {
+  text-decoration: none;
+}
+#contactme h3:hover {color: #2a4522;}
+
+header img {
+  align-items: center;
+  padding-left: 550px;
+  margin: 0 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/************WORK************/
+#work .full-width .half-width {
+  height: 2500;
+}
+#work h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60pt;
+  color: white;
+  padding-top: 50px;
+  margin: 0;
+  text-align: center;
+}
+#work h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 38pt;
+  color: #2a4522;
+}
+#work h3 {
+  font-family: 'Rokkitt', cursive;
+  font-size: 30pt;
+  text-align: center;
+  padding-bottom: 50px;
+  color: white;
+}
+#work img {
+  padding: 0 50px;
+}
+#work h4 {
+font-family: 'Sue Ellen Francisco', cursive;
+font-size: 36pt;
+color: #c3f7c0;
+text-align: center;
+padding-top: 0;
+padding-bottom: 15px;
+margin: 0 0;
+}
+
+#work p {
+font-family: 'Rokkitt', cursive;
+font-size: 20pt;
+text-align: center;
+color: white;
+margin: 20px 50px;
+padding: 30px 0;
+}
+#work h5 {
+font-family: 'Sue Ellen Francisco', cursive;
+font-size: 36pt;
+color: #c3f7c0;
+text-align: center;
+color: #2a4522;
+padding-top: 160px;
+}
+
+/************ABOUT************/
+#about {
+  height: 800px;
+  background: url("../img/8.jpg");
+  background-size: cover;
+}
+#about h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60pt;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+#about p {
+  font-family: 'Rokkitt', cursive;
+  font-size: 20pt;
+  line-height: 30pt;
+  text-align: left;
+  color: white;
+  margin: 20px 50px;
+  padding: 30px 0;
+  margin: 0 0;
+}
+#about img {
+  padding-left: 200px;
+  padding-top: 80px;
+}
+
+/************FOOTER**********/
+
+#contact h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60pt;
+  color: white;
+  padding: 0px;
+  text-align: center;
+}
+
+#contact img {
+  padding-left: 360px;
+  padding-bottom: 30px;
+
+}
+#contact h2 {
+  font-family: 'Rokkitt', cursive;
+  font-size: 35pt;
+  margin: 0 0;
+  text-decoration: none;
+  color: #c3f7c0;
+  padding-bottom: 20px;
+}
+#contact a {
+  text-decoration: none;
+}
+
+#contact a {
+  font-family: 'Rokkitt', cursive;
+  font-size: 35pt;
+  color: #c3f7c0;
+
+}
+#contact span {
+  color: #2a4522;
+  font-size: 28pt;
+  text-decoration: none;
+}
+#socialmediafooter img {
+  padding-left: 550px;
+}
+#logofooter img {
+  padding-left: 535px;
+  margin: 0 0;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+#contact h3 {
+  color: #2a4522;
+  font-size: 24pt;
+  margin: 0 0;
+  padding: 0 0;
+}
+#contact a:hover {color: #2a4522;}
+
+#copyright h3 {
+  color: #2a4522;
+  font-size: 20pt;
+}
+#copyright h4 {
+  font-size: 14pt;
+  font-family: 'Rokkitt', cursive;
+  color: #2a4522;
+  text-align: center;
+  margin: 0 0;
+  padding: 0 0;
+}
+#copyright a {
+  font-size: 14pt;
+  font-family: 'Rokkitt', cursive;
+  color: #2a4522;
+  text-align: center;
+}
+#copyright a:hover {text-decoration: underline; color: #c3f7c0;}
